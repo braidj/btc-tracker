@@ -1,12 +1,18 @@
 {
   "name": "btc-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Node.js tool to track BTC prices and process CSV data",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "sum": "node sum.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["btc", "tracker", "csv", "nodejs", "crypto"],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.2.0"
+  }
 }
